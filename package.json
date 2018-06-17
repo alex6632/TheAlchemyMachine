@@ -1,0 +1,30 @@
+{
+  "name": "alchemy",
+  "version": "1.0.0",
+  "description": "The Alchemy Machine is a potion simulator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run start-api & npm run start-client",
+    "start-api": "nodemon server.js",
+    "start-client": "cd client/ && npm run start",
+    "setup": "npm i && cd client/ && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Alexandre Simonin",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1",
+    "path": "^0.12.7"
+  }
+}
