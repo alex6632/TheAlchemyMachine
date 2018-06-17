@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Vinaigre",
+    "quantity": 14
+  },
+  {
+    "id": 2,
+    "name": "Tête de rat",
+    "quantity": 13
+  },
+  {
+    "id": 3,
+    "name": "Bave de lama",
+    "quantity": 10
+  },
+  {
+    "id": 4,
+    "name": "Persil",
+    "quantity": 15
+  },
+  {
+    "id": 5,
+    "name": "Épines de hérisson",
+    "quantity": 1
+  },
+  {
+    "id": 6,
+    "name": "Argent",
+    "quantity": 3
+  },
+  {
+    "id": 7,
+    "name": "Diamant",
+    "quantity": 3
+  },
+  {
+    "id": 8,
+    "name": "Poil de phacochère",
+    "quantity": 16
+  },
+  {
+    "id": 9,
+    "name": "Hélium liquide",
+    "quantity": 1
+  },
+  {
+    "id": 10,
+    "name": "Cannabis",
+    "quantity": 15
+  },
+  {
+    "id": 11,
+    "name": "Sel de l'himalaya",
+    "quantity": 9
+  },
+  {
+    "id": 12,
+    "name": "Corne de chamois",
+    "quantity": 3
+  },
+  {
+    "id": 13,
+    "name": "Nautile",
+    "quantity": 1
+  },
+  {
+    "id": 14,
+    "name": "Azote liquide",
+    "quantity": 2
+  },
+  {
+    "id": 15,
+    "name": "Cendres",
+    "quantity": 10
+  },
+  {
+    "id": 16,
+    "name": "Sang",
+    "quantity": 4
+  },
+  {
+    "id": 17,
+    "name": "Eau régale",
+    "quantity": 6
+  },
+  {
+    "id": 18,
+    "name": "Requin grande gueule",
+    "quantity": 2
+  },
+  {
+    "id": 19,
+    "name": "Emeraude",
+    "quantity": 1
+  },
+  {
+    "id": 20,
+    "name": "Arsenic",
+    "quantity": 16
+  },
+  {
+    "id": 21,
+    "name": "Cerisier",
+    "quantity": 4
+  },
+  {
+    "id": 22,
+    "name": "Plume de lagopède",
+    "quantity": 1
+  },
+  {
+    "id": 23,
+    "name": "Safran",
+    "quantity": 5
+  },
+  {
+    "id": 24,
+    "name": "Poil de chat",
+    "quantity": 4
+  },
+  {
+    "id": 25,
+    "name": "Patte de pigeon",
+    "quantity": 6
+  },
+  {
+    "id": 26,
+    "name": "Queue de renard",
+    "quantity": 7
+  },
+  {
+    "id": 27,
+    "name": "Noix de coco",
+    "quantity": 6
+  },
+  {
+    "id": 28,
+    "name": "Neige éternelle",
+    "quantity": 12
+  }
+]

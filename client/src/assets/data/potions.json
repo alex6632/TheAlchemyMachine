@@ -1,0 +1,94 @@
+{
+  "potions": [
+    {
+      "name": "Invisibilité",
+      "composition": [
+        1,
+        2,
+        3
+      ],
+      "find": false
+    },
+    {
+      "name": "Ratatouille",
+      "composition": [
+        2,
+        4,
+        27
+      ],
+      "find": false
+    },
+    {
+      "name": "Reine des neiges",
+      "composition": [
+        28,
+        11,
+        17
+      ],
+      "find": false
+    },
+    {
+      "name": "Licorne",
+      "composition": [
+        12,
+        22,
+        12
+      ],
+      "find": false
+    },
+    {
+      "name": "Castafiore",
+      "composition": [
+        7,
+        9,
+        19
+      ],
+      "find": false
+    },
+    {
+      "name": "Dent de la mer",
+      "composition": [
+        13,
+        18,
+        1
+      ],
+      "find": false
+    },
+    {
+      "name": "Vampire",
+      "composition": [
+        16,
+        15,
+        17
+      ],
+      "find": false
+    },
+    {
+      "name": "Aristochats",
+      "composition": [
+        24,
+        26,
+        6
+      ],
+      "find": false
+    },
+    {
+      "name": "Pumbaa",
+      "composition": [
+        8,
+        20,
+        23
+      ],
+      "find": false
+    },
+    {
+      "name": "Cactus",
+      "composition": [
+        5,
+        21,
+        25
+      ],
+      "find": false
+    }
+  ]
+}

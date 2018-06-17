@@ -1,0 +1,53 @@
+<div class="title">
+  <h1>The Alchemy Machine</h1>
+  <h2>Voici un "simulateur" de création de potions alchimiques réalisé avec Node.js et Angular</h2>
+</div>
+<p>
+  L'objectif de ce jeu est de trouver les 10 potions magiques. Si vous ne trouvez pas les bons mélanges, les solutions sont disponibles en cliquant sur le bouton Aide.
+</p>
+<div class="help">
+  <button class="help-button" (click)="toggleShowHelp()">?</button>
+  <ul class="help-container" *ngIf="showHelp">
+    <li>Vinaigre + Tête de rat + Bave de lama</li>
+    <li>Tête de rat + Persil + Noix de coco</li>
+    <li>Neige éternelle + Sel d'himalaya + Eau régale</li>
+    <li>Corne de chamoix + Plume de lagopède + Cannabis</li>
+    <li>Diamant + Hélium liquide + Emeraude</li>
+    <li>Nautile + Requin grande gueule + Vinaigre</li>
+    <li>Sang + Cendres + Eau régale</li>
+    <li>Poils de chat + Queue de renard + Argent</li>
+    <li>Poils de phacochère + Arsenic + Safran</li>
+    <li>Épines de hérisson + Cerisier + Pattes de pigeon</li>
+  </ul>
+</div>
+<div class="container">
+  <fieldset class="dragndrop drag" id="drag">
+    <legend class="legend">Ingrédients</legend>
+    <div id="item-{{ingredient.id}}" class="item" *ngFor="let ingredient of ingredients" (click)="add($event)">
+      <img id="img-{{ingredient.id}}" src="assets/images/{{ingredient.name}}.jpg" alt="">
+      <div id="name-{{ingredient.id}}" class="ingredient__name">{{ingredient.name}}</div>
+      <div id="qty-{{ingredient.id}}" class="ingredient__quantity">{{ingredient.quantity}}</div>
+    </div>
+  </fieldset>
+
+  <fieldset class="dragndrop drop" id="drop">
+    <legend class="legend">Mélange</legend>
+    <div id="drop-container"></div>
+    <button class="button button-clear" id="clear" (click)="clear()">Vider</button>
+    <button class="button" id="mix" (click)="mix()">Tester</button>
+  </fieldset>
+
+  <fieldset class="dragndrop potions">
+    <legend class="legend">Potions</legend>
+
+    <div class="item" *ngFor="let potion of potions">
+        <img src="assets/images/{{potion.name}}.jpg" alt="">
+      <div class="ingredient__name">{{potion.name}}</div>
+    </div>
+
+    <div id="potions-container"></div>
+  </fieldset>
+
+  <div id="success" class="message message--success">{{successMessage}}</div>
+  <div id="error" class="message message--error">{{errorMessage}}</div>
+</div>
